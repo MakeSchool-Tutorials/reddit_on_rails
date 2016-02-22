@@ -54,7 +54,7 @@ Now that we understand what is going on, we can more easily fix it and there are
 
 **Task: Try fixing this error using a conditional.**
 
-**Task: Try fixing this error using ruby’s ****[#dig metho**d](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig)**.**
+**Task: Try fixing this error using ruby’s ****[#dig method](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig)**.**
 
 This is a very common error for new and experienced developers alike. Now you should be able to identify it more quickly and fix it appropriately.
 
@@ -110,7 +110,7 @@ To see what is defined, you can look at what methods a class implements with `My
 
 There are a ton of other tricks like these to more easily debug Ruby programs. Please follow the links in further reading.
 
-**Task: Read about Pry, a popular Ruby debugging tool: ****[http://pryrepl.org**/](http://pryrepl.org/)
+**Task: Read about Pry, a popular Ruby debugging tool: **[http://pryrepl.org**/](http://pryrepl.org/)
 
 Further reading:
 
