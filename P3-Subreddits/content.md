@@ -47,7 +47,7 @@ One of the downsides of using a slug is that it’s slower than looking up an ob
 
 We’re going to add an index. If you don't know about indexes already, the database uses them to  allows us to quickly search a field. An index adds an additional cost of maintaining the index whenever you create, delete or modify an entry, so indexes should be used sparingly. A good rule of thumb is add indexes on things that you will write queries for, and never on text fields.
 
-**Task: read more about indexes here: **[https://www.dreamhost.com/blog/2013/08/27/mysql-indexing-basics/](https://www.dreamhost.com/blog/2013/08/27/mysql-indexing-basics/)
+**Task: read more about indexes here:** [https://www.dreamhost.com/blog/2013/08/27/mysql-indexing-basics/](https://www.dreamhost.com/blog/2013/08/27/mysql-indexing-basics/)
 
 *Q: How does an index make accessing a database table faster?*
 
