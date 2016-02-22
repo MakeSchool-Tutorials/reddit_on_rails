@@ -27,6 +27,8 @@ Next, we need to figure out how to represent these stories in our models.
 
 ## Entity-Relationship-Diagrams
 
+![ERD](p2_erd.png "ERD")
+
 **ERDs **([https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model))** **are a common way to represent the objects and relationships represented by a relational database. In the example below you can see that each rectangle represents a table (a Rails **Model**), each model has many attributes, and the arrows between objects represent primary/foreign-key joins (ActiveRecord **Relationships**).  Generally, our **nouns** will be our models. The relationships between the objects will be **verbs of possession**.  For example, a **Post** will have many **Comments**, indicating a one-to-many relationship between the two objects.
 
 **Task: Read the article linked and ensure you understand the various styles in ERDs.**
