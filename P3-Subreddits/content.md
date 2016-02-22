@@ -53,13 +53,13 @@ We’re going to add an index. If you don't know about indexes already, the data
 
 *Q: What kind of lookup would not benefit from an index?*
 
-**Task: using the Rails migration generator, add an index for the slug column on Subreddit.**
-
 ## Production Considerations
 
 If you tried to add an index to a table that already had data, the database may not allow it. Indexes can't be created for entries on columns that have empty rows, for example a Subreddit without a slug.  In these cases, we would need to backfill the data before adding the index.  We'll run into this situation many times in production code, sometimes we want to add something new but provide some kind of default code that populates something.
 
 Let's modify our migration file to include some code that goes through all the subreddits and verifies that slugs are present. This code should run before the index is created by the migration.  Because of our after create callback we won't have to worry about future models, just our existing ones.
+
+**Task: using the Rails migration generator, add an index for the slug column on Subreddit.**
 
 # Testing
 
