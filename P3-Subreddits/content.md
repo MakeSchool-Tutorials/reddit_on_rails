@@ -15,13 +15,13 @@ Some stories to start with are:
 
 * *As a user, I can delete posts I’ve added to a subreddit.*
 
-**T****ask: Add additional user stories around subreddits.  Run these by your teammates, and then write test cases that will fulfill your feature set. Make your tests green by building out the stories you agreed to add.**
+**Task: Add additional user stories around subreddits.  Run these by your teammates, and then write test cases that will fulfill your feature set. Make your tests green by building out the stories you agreed to add.**
 
 # Validations
 
 We're going to need to validate a few things on our subreddits.  We should review Rails validations here on this page: [http://guides.rubyonrails.org/active_record_validations.html](http://guides.rubyonrails.org/active_record_validations.html)
 
-**Task: Ensure that every subreddit is named with a ****maximum_length**** of 21 characters, and doesn’t contain any special characters****.**
+**Task: Ensure that every subreddit is named with a ****maximum_length**** of 21 characters, and doesn’t contain any special characters.**
 
 **Task: Ensure that subreddit names are unique.**
 
