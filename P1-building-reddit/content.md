@@ -19,7 +19,7 @@ By the end of this tutorial, you will have accomplished the following:
 
 Reddit is a simple web application that we’ll use to cover many of the concepts that would be required during development of a production-ready application.  Hopefully some of you have heard of or used Reddit before, but if not, you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Reddit).  Users can create and comment on posts, and comment on comments.  We recommend creating a Reddit account, creating a subreddit, creating a post, and commenting on another user’s post.  
 
-**Optional: **Create a Reddit account**
+**Optional: Create a Reddit account**
 
 **Optional: Create a subreddit (topic doesn’t matter)**
 
@@ -35,7 +35,7 @@ Reddit is a simple web application that we’ll use to cover many of the concept
 
 Be sure to follow TDD and use the tools we’ll introduce in the next lesson to ensure adequate coverage.  Don’t be afraid to ask for guidance, and don’t be discouraged if you’re asked to reimplement aspects of your application due to inadequate testing or suboptimal implementation.  This project is a good candidate for pair programming.
 
-**Optional: watch an expose of live, hilarious pairing here: ****[https://www.youtube.com/watch?v=sn7prRGGp4**Q](https://www.youtube.com/watch?v=sn7prRGGp4Q)
+**Optional: watch an expose of live, hilarious pairing here: **[https://www.youtube.com/watch?v=sn7prRGGp4**Q](https://www.youtube.com/watch?v=sn7prRGGp4Q)
 
 # Learning through doing
 
