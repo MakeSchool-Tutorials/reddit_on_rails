@@ -41,7 +41,7 @@ Next, let's add a route that matches localhost:3000/subreddits/<slug> and send t
 
 **Task: Validate the slug to prevent whitespace, slashes, ensure uniqueness, and prevent other special characters.**
 
-## Improving performance
+# Improving performance
 
 One of the downsides of using a slug is that it’s slower than looking up an object by its primary key. In most modern databases, the primary key is automatically indexed. Most of the time, it won’t matter unless your table is really big. See explanation [here](http://stackoverflow.com/questions/12431107/performance-of-string-comparison-vs-int-join-in-sql).
 
@@ -55,7 +55,7 @@ We’re going to add an index. If you don't know about indexes already, the data
 
 **Task: using the Rails migration generator, add an index for the slug column on Subreddit.**
 
-### Production Considerations
+## Production Considerations
 
 If you tried to add an index to a table that already had data, the database may not allow it. Indexes can't be created for entries on columns that have empty rows, for example a Subreddit without a slug.  In these cases, we would need to backfill the data before adding the index.  We'll run into this situation many times in production code, sometimes we want to add something new but provide some kind of default code that populates something.
 
