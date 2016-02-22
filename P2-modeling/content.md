@@ -25,7 +25,7 @@ Next, we need to figure out how to represent these stories in our models.
 
 **Task: Create at least five more user stories.**
 
-## Entity-Relationship-Diagrams
+# Entity-Relationship-Diagrams
 
 ![ERD](p2_erd.png "ERD")
 
@@ -51,7 +51,7 @@ To get started, let’s use the Rails generators covered in the Rails tutorial t
 
 *Q: Why does the order of model generation matter? Does the order of columns matter?*
 
-## Testing and Validations
+# Testing and Validations
 
 Now that we’ve generated most of our base models, we need to add validations before starting to connect them with one another. Every attribute on a model should have a test, and every validation for every attribute should have a test. Since we’re not hacks, we’ll write our tests first.  For now, only give the User an email address -- we’ll implement User later.
 
@@ -59,7 +59,7 @@ Now that we’ve generated most of our base models, we need to add validations b
 
 **Task: Brainstorm validations necessary for each model, then add them using TDD**.
 
-### First Relationships
+# First Relationships
 
 The ERD gives us a good idea of how objects are related, so we’ll follow that for this exercise.
 
