@@ -20,10 +20,15 @@ By the end of this tutorial, you will have accomplished the following:
 Reddit is a simple web application that we’ll use to cover many of the concepts that would be required during development of a production-ready application.  Hopefully some of you have heard of or used Reddit before, but if not, you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Reddit).  Users can create and comment on posts, and comment on comments.  We recommend creating a Reddit account, creating a subreddit, creating a post, and commenting on another user’s post.  
 
 **Optional: **Create a Reddit account**
+
 **Optional: Create a subreddit (topic doesn’t matter)**
+
 **Optional: Create a post in your subreddit**
+
 **Optional: Add another student as a moderator to your subreddit**
+
 **Optional: Comment on the post you created for your subreddit**
+
 **Optional: Attempt to edit and delete a post in your subreddit from another user.**
 
 # Notes on this Tutorial
