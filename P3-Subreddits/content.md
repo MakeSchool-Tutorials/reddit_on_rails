@@ -21,7 +21,7 @@ Some stories to start with are:
 
 We're going to need to validate a few things on our subreddits.  We should review Rails validations here on this page: [http://guides.rubyonrails.org/active_record_validations.html](http://guides.rubyonrails.org/active_record_validations.html)
 
-**Task: Ensure that every subreddit is named with a ****maximum_length**** of 21 characters, and doesn’t contain any special characters.**
+**Task: Ensure that every subreddit is named with a maximum_length of 21 characters, and doesn’t contain any special characters.**
 
 **Task: Ensure that subreddit names are unique.**
 
