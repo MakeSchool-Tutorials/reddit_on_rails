@@ -1,8 +1,7 @@
 ---
 title: "Ruby Debugging"
-slug: ruby-debugging
+slug: 0-ruby-debugging
 ---
-
 
 "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements." - Brian Kernighan
 
@@ -13,23 +12,17 @@ Here are a number of tips and tricks for effective Ruby debugging.
 One of the common errors new ruby developers run into is NoMethodError. Imagine you have a class AuthorFromParams:
 
 ```
-
 class AuthorFromParams
-
+  
   def initialize(params)
-
     @params = params
-
   end
 
   def author_name
-
     @params['author']['name']
-
   end
 
 end
-
 ```
 
 Here we have a simple class that takes the params as an argument, and returns the author's name. You would expect params to be 
@@ -39,13 +32,10 @@ Here we have a simple class that takes the params as an argument, and returns th
 Now, what happens if you do not receive the author key?
 
 ```
-
 my_class = MyClass.new({post_id: 1, post_title: "First!"})
 
 author_from_params.rb:7:in `author_name': undefined method `[]' for nil:NilClass (NoMethodError)
-
   from author_from_params.rb:12:in `<main>'
-
 ```
 
 Oh, that is somewhat surprising. what this error is telling us is nil class does not implement square brackets. It is true that square brackets are not implemented on nil, but that is not what I want. I never asked if square brackets are defined on nil. or did I?
@@ -53,13 +43,9 @@ Oh, that is somewhat surprising. what this error is telling us is nil class does
 Let’s take a closer look at the author_name method.
 
 ```
-
 def author_name
-
   @params['author']['name']
-
 end
-
 ```
 
 if we call @params[‘author’], ruby will return `nil` since it is not present in the hash. Ruby considers that perfectly normal, so it continues on and asks the return value from `@params[‘author’]` (`nil`) what `[‘name’]` returns. Boom! this is where we explode. Since we are now effectively calling `nil[‘name’]`, we get this error.
@@ -77,11 +63,9 @@ This is a very common error for new and experienced developers alike. Now you sh
 In the previous example, we knew where our error was coming from, it was present in the stack trace and easy to identify. Now what do we do when we don’t actually know where the error is? Consider this example[1].
 
 ```
-
 def show
   render params[:id]
 end
-
 ```
 
 We are calling the render method, but we don’t know where it goes. We can use a method called `source_location` to find where it is defined. we can call `method(:render).source_location`.
@@ -101,33 +85,19 @@ open the `inline_preview_interceptor.rb` file
 look at the #transform! method
 
 ```
-
    def transform! #:nodoc:                                                                                              
-
       return message if html_part.blank?                                                                                 
-
-                                                                                                                         
-
+                                                                                                                        
       html_source.gsub!(PATTERN) do |match|                                                                              
-
         if part **=** find_part(match[9..-2])                                                                                
-
           **%**[src="#{data_url(part)}"]                                                                                     
-
         else                                                                                                             
-
           match                                                                                                          
-
         end                                                                                                              
-
       end                                                                                                                
-
                                                                                                                          
-
       message                                                                                                            
-
     end   
-
 ```
 
 Depending on which part of this method I am debugging, I can add `#puts` throughout the method or anywhere in the file to inspect the current state. For example, I could add `puts data_url(part)` to see what asset path ActionMailer is generating.
