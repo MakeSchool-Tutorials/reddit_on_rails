@@ -15,6 +15,14 @@ By the end of this tutorial, you will have accomplished the following:
 
 3. Understand the common libraries and the nomenclatures used in web applications.
 
+## Pair Programming
+
+You should do this tutorial in pairs using pair programming techniques.  That means that when you're programming, there's two people sitting on one computer.  One person is the driver, types on the keyboard.  The other person, the observer, reads each line of code as it's typed, and discusses what's happening and why with the driver.  You should switch roles often - every 30 minutes.
+
+For more information, see [this guide](http://www.wikihow.com/Pair-Program).
+
+Once you've picked a partner, use [this link](https://classroom.github.com/group-assignment-invitations/7a656a92e5e6bbe3329533de3af9360f) to accept the assignment and create groups.  Both partners should accept the assignment, though you'll start by working on one computer.  Make sure to put any design documents and any related resources into your repository.
+
 ## Why / What is Reddit?
 
 Reddit is a simple web application that we’ll use to cover many of the concepts that would be required during development of a production-ready application.  Hopefully some of you have heard of or used Reddit before, but if not, you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Reddit).  Users can create and comment on posts, and comment on comments.  We recommend creating a Reddit account, creating a subreddit, creating a post, and commenting on another user’s post.  
