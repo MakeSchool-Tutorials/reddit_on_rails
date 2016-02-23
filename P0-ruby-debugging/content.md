@@ -5,7 +5,7 @@ slug: 0-ruby-debugging
 
 "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements." - Brian Kernighan
 
-Here are a number of tips and tricks for effective Ruby debugging. 
+Here are a number of tips and tricks for effective Ruby debugging.
 
 # Undefined method for nil:NilClass
 
@@ -13,26 +13,26 @@ One of the common errors new ruby developers run into is NoMethodError. Imagine 
 
 ```
 class AuthorFromParams
-  
+
   def initialize(params)
     @params = params
   end
 
   def author_name
-    @params['author']['name']
+    @params[:author][:name]
   end
 
 end
 ```
 
-Here we have a simple class that takes the params as an argument, and returns the author's name. You would expect params to be 
+Here we have a simple class that takes the params as an argument, and returns the author's name. You would expect params to be
 
 `{ post_id: 1, post_title: "First!", author: { name: “joe”, id: 3 }}`
 
 Now, what happens if you do not receive the author key?
 
 ```
-my_class = MyClass.new({post_id: 1, post_title: "First!"})
+my_class = AuthorFromParams.new({post_id: 1, post_title: "First!"})
 
 author_from_params.rb:7:in `author_name': undefined method `[]' for nil:NilClass (NoMethodError)
   from author_from_params.rb:12:in `<main>'
@@ -76,7 +76,7 @@ We are calling the render method, but we don’t know where it goes. We can use 
 
 Sometimes a library you are using (including Rails) while hide some useful piece of debugging information. Thankfully, in Ruby we can add debugging information directly into our dependencies!
 
-For example, if I am debugging actionmailer (the email sender used in rails) I can `bundle open` that dependency and edit it directly. My new modified action mailer will be used when I restart my rails app. 
+For example, if I am debugging actionmailer (the email sender used in rails) I can `bundle open` that dependency and edit it directly. My new modified action mailer will be used when I restart my rails app.
 
 `bundle open actionmailer`
 
@@ -87,7 +87,7 @@ look at the #transform! method
 ```
    def transform! #:nodoc:                                                                                              
       return message if html_part.blank?                                                                                 
-                                                                                                                        
+
       html_source.gsub!(PATTERN) do |match|                                                                              
         if part **=** find_part(match[9..-2])                                                                                
           **%**[src="#{data_url(part)}"]                                                                                     
@@ -95,7 +95,7 @@ look at the #transform! method
           match                                                                                                          
         end                                                                                                              
       end                                                                                                                
-                                                                                                                         
+
       message                                                                                                            
     end   
 ```
@@ -117,4 +117,3 @@ Further reading:
 [1] [http://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html](http://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer.html)
 
 [2][http://www.schneems.com/2016/01/25/ruby-debugging-magic-cheat-sheet.html](http://www.schneems.com/2016/01/25/ruby-debugging-magic-cheat-sheet.html)
-
