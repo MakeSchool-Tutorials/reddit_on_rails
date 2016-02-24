@@ -20,8 +20,9 @@ While Rails validations make it easy to ensure that a Comment is not valid witho
 
 **Task: Review the PostgreSQL implementation of database constrations:** [http://www.postgresql.org/docs/8.2/static/ddl-constraints.html](http://www.postgresql.org/docs/8.2/static/ddl-constraints.html)
 
-*Q: What are some reasons that ActiveRecord validations are preferred over database constraints in Rails?
-Q: Considering your answer to the previous question, what are some types of data that would be good to validate in a Rails application using database constraints?*
+*Q: What are some reasons that ActiveRecord validations are preferred over database constraints in Rails?*
+
+*Q: Considering your answer to the previous question, what are some types of data that would be good to validate in a Rails application using database constraints?*
 
 # Updating the Comments Controller
 
