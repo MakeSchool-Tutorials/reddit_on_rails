@@ -35,7 +35,7 @@ Q: Considering your answer to the previous question, what are some types of data
 
 Capybara is a commonly used integrational testing library for Ruby.  Using Capybara, we can write tests that simulate actual user interaction with our application, like logging in or clicking post links.
 
-**Task: Read this getting started guide for Capybara:** [http://www.sitepoint.com/basics-capybara-improving-tests**/](http://www.sitepoint.com/basics-capybara-improving-tests/)
+**Task: Read a getting started guide for Capybara:** [http://www.sitepoint.com/basics-capybara-improving-tests/](http://www.sitepoint.com/basics-capybara-improving-tests/)
 
 **Task: Read the Capybara documentation:** [http://www.rubydoc.info/github/jnicklas/capybar**a](http://www.rubydoc.info/github/jnicklas/capybara)
 
