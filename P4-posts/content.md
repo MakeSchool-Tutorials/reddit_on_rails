@@ -35,13 +35,13 @@ Tip: Use a partial to represent a comment and make the Post#show page loop over 
 
 We have two types of posts, and that means that our application has to do some work to decide how to display them: text posts have a view, and link posts do not.  In other words, we have two kinds of posts, and we need to create a common interface.
 
-![image alt text](image_0.png)
+![Posts](posts.png)
 
 When you click the first link shown in the image above, you are taken to the show page for that post. When you click the second link, you are taken to an external source.
 
 One good way to manage this difference is to create a single helper method that decides, based on the post type, where to direct the user. That way this method is the only place that has to know some posts link somewhere else. The view should not have to know that some posts link to different places.
 
-**Task: Expose one method that determines where a post should link. **
+*Task: Expose one method that determines where a post should link.*
 
 # Further Reading
 
