@@ -37,7 +37,7 @@ Capybara is a commonly used integrational testing library for Ruby.  Using Capyb
 
 **Task: Read a getting started guide for Capybara:** [http://www.sitepoint.com/basics-capybara-improving-tests/](http://www.sitepoint.com/basics-capybara-improving-tests/)
 
-**Task: Read the Capybara documentation:** [http://www.rubydoc.info/github/jnicklas/capybar**a](http://www.rubydoc.info/github/jnicklas/capybara)
+**Task: Read the Capybara documentation:** [http://www.rubydoc.info/github/jnicklas/capybara](http://www.rubydoc.info/github/jnicklas/capybara)
 
 **Task: Implement the following acceptance tests using Capybara while implementing Comments:**
 
