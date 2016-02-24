@@ -39,11 +39,13 @@ Capybara is a commonly used integrational testing library for Ruby.  Using Capyb
 
 **Task: Read the Capybara documentation:** [http://www.rubydoc.info/github/jnicklas/capybar**a](http://www.rubydoc.info/github/jnicklas/capybara)
 
-**Task: Implement the following acceptance tests using Capybara:**
+**Task: Implement the following acceptance tests using Capybara while implementing Comments:**
 
 * User signs up and creates a post.
 
 * User logs in and comments on a post.
 
 * User creates a comment then deletes the comment.
+
+* User logs in and comments on a Comment.
 
