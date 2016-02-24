@@ -8,7 +8,7 @@ Since comments can be related to Posts and other Comments, we’ll begin by revi
 
 **Task: review polymorphism in Rails:** [https://www.railstutorial.org/book/following_users](https://www.railstutorial.org/book/following_users#sec-the_relationship_model)
 
-**Task: review duck-typing:** [http://rubylearning.com/satishtalim/duck_typing.htm**l](http://rubylearning.com/satishtalim/duck_typing.html)
+**Task: review duck-typing:** [http://rubylearning.com/satishtalim/duck_typing.html](http://rubylearning.com/satishtalim/duck_typing.html)
 
 *Q: Compare and contrast duck-typing and class inheritance.*
 
@@ -18,7 +18,7 @@ Since comments can be related to Posts and other Comments, we’ll begin by revi
 
 While Rails validations make it easy to ensure that a Comment is not valid without a parent, there are other common ways to enforce these validations much more performantly.  For example, database-level constraints are common in financial or big-data applications where the application is the bottleneck of many computations.
 
-**Task: Review the PostgreSQL implementation of database constrations:** [http://www.postgresql.org/docs/8.2/static/ddl-constraints.htm**l](http://www.postgresql.org/docs/8.2/static/ddl-constraints.html)
+**Task: Review the PostgreSQL implementation of database constrations:** [http://www.postgresql.org/docs/8.2/static/ddl-constraints.html](http://www.postgresql.org/docs/8.2/static/ddl-constraints.html)
 
 *Q: What are some reasons that ActiveRecord validations are preferred over database constraints in Rails?
 Q: Considering your answer to the previous question, what are some types of data that would be good to validate in a Rails application using database constraints?*
