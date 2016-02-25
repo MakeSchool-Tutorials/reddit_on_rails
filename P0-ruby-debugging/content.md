@@ -54,7 +54,7 @@ Now that we understand what is going on, we can more easily fix it and there are
 
 **Task: Try fixing this error using a conditional.**
 
-**Task: Try fixing this error using ruby’s ****[#dig method](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig). Important: This only works on Ruby 2.3.0 and higher.**
+**Task: Try fixing this error using ruby’s [#dig method](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig). Important: This method is only available on Ruby 2.3.0 and higher.**
 
 This is a very common error for new and experienced developers alike. Now you should be able to identify it more quickly and fix it appropriately.
 
