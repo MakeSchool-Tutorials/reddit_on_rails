@@ -110,7 +110,7 @@ To see what is defined, you can look at what methods a class implements with `My
 
 There are a ton of other tricks like these to more easily debug Ruby programs. Please follow the links in further reading.
 
-**Task: Read about Pry, a popular Ruby debugging tool: **[http://pryrepl.org**/](http://pryrepl.org/)
+**Task: Read about Pry, a popular Ruby debugging tool:** [http://pryrepl.org/](http://pryrepl.org/)
 
 Further reading:
 
