@@ -55,7 +55,7 @@ Posts that have already been voted on should show a colored arrow. We can use vi
 
 **Task: Create a helper method that will return the class 'upvoted' for upvoted buttons if they have that votable item has an upvote. Make another method that does the same for a downvote but returns a class 'downvoted'.**
 
-**Task: add some rules to our css file to modify the our css so that things with 'upvoted' and**** 'downvoted' class are a different color to indicate that a user has upvoted or downvoted this.**
+**Task: add some rules to our css file to modify the our css so that things with 'upvoted' and 'downvoted' class are a different color to indicate that a user has upvoted or downvoted this.**
 
 **Extra credit: Use javascript to apply the css to the post without having to refresh the page.**
 
