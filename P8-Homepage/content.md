@@ -52,7 +52,7 @@ Take the sorting algorithm you just wrote, and try it with 100 posts, then 1000 
 
 **Task: Add 100,000 Posts to your database under any subreddit.**
 
-**Task: Add logging around the front page index action to time the page load. **
+**Task: Add logging around the front page index action to time the page load.**
 
 **Task: Graph the load time over number of posts from the previous task.  Explain the pattern and describe the line of best fit.**
 
