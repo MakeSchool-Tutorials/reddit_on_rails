@@ -1,5 +1,7 @@
-Homepage
-
+---
+title: "The Homepage"
+slug: homepage
+---
 # The Front Page
 
 The front page of reddit is composed of the posts from all of the subreddits that you are subscribed to. To begin with, let’s just have the front page show the most popular posts from each subreddit.
