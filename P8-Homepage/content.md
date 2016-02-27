@@ -36,8 +36,7 @@ Recent posts are sorted from newest to oldest and the most popular posts have th
 
 **Task: Allow the user to sort the page by most recent, most popular, and trending.**
 
-
-Trending
+# Trending
 
 Trending posts may need more explanation. What exactly constitutes a trending post? Trending posts are posts that receive a lot of votes over a short period of time. The longer a post has been around, the less a vote is worth. Now, how much less is a vote worth after one hour than it is worth right after posting? There are a number of answers. There is an excellent article exploring different ways of deciding how much a vote is worth over a period of time.
 
