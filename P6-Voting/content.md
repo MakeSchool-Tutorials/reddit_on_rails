@@ -19,7 +19,7 @@ We also want to limit it so that there is only one vote per votable object for e
 
 Read more about validations with scopes here: [http://guides.rubyonrails.org/active_record_validations.html](http://guides.rubyonrails.org/active_record_validations.html) 
 
-**Task: Add a test to ensure that a Post cannot be voted on by the same user twice. **
+**Task: Add a test to ensure that a Post cannot be voted on by the same user twice.**
 
 **Task: Add a uniqueness constraint that prevents voting twice.**
 
@@ -53,7 +53,7 @@ But if we specify that this is a remote link_to, it will retrieve POST without r
 
 Posts that have already been voted on should show a colored arrow. We can use view helpers to determine which css class to put on our link_to to style it differently.
 
-**Task: Create a helper method that will return the class 'upvoted' for upvoted buttons if they have that votable item has an upvote. Make another method that does the same for a downvote but returns a class 'downvoted'. **
+**Task: Create a helper method that will return the class 'upvoted' for upvoted buttons if they have that votable item has an upvote. Make another method that does the same for a downvote but returns a class 'downvoted'.**
 
 **Task: add some rules to our css file to modify the our css so that things with 'upvoted' and**** 'downvoted' class are a different color to indicate that a user has upvoted or downvoted this.**
 
