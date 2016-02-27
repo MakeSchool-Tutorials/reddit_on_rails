@@ -3,13 +3,13 @@ title: "Authentication and Authorization"
 slug: authentication-and-authorization
 ---
 
-## Replacing our User with Devise
+# Replacing our User with Devise
 
 We’re going to use Devise, an authentication gem, to allow signing in, signing out, recovery of password via email, and other common User actions.
 
 *Q: What’s the difference between authentication and authorization?*
 
-**Task: Read the "Getting Started" guide for Devise: ****[https://github.com/plataformatec/devise#getting-starte**d](https://github.com/plataformatec/devise#getting-started)
+**Task: Read the "Getting Started" guide for Devise:** [https://github.com/plataformatec/devise#getting-starte**d](https://github.com/plataformatec/devise#getting-started)
 
 **Task: Generate a Devise user named User.**
 
@@ -23,21 +23,21 @@ Pay close attention to the names of Devise methods.  It’s very common for Rail
 
 While figuring out what your authentication looks like, this would be a good time to add  some high level tests that walk through signing a user in and checking that the user is signed in when you expect them to be.
 
-### CanCanCan
+# CanCanCan
 
 Many applications require different ability levels between users, like an admin or a moderator.  The patterns that describe the implementation of user levels are referred to as authorization.  Because so many Rails apps implement these patterns, gems have been created and actively maintained that implement authorization quickly with a common DSL.  We’ll be using the CanCanCan (a fork of the no longer maintained CanCan) gem to implement authorization on top of the authenticated Users that Devise created for us.
 
 **Task: as a quick introduction to the Can* DSL, digest this RailsCast:**
 
-**[http://railscasts.com/episodes/192-authorization-with-canca**n](http://railscasts.com/episodes/192-authorization-with-cancan?autoplay=true)
+**[http://railscasts.com/episodes/192-authorization-with-cancan](http://railscasts.com/episodes/192-authorization-with-cancan?autoplay=true)
 
-**Task: follow the getting started guide and implement the base gem in your project: ****[https://github.com/CanCanCommunity/cancancan#readm**e](https://github.com/CanCanCommunity/cancancan#readme)
+**Task: follow the getting started guide and implement the base gem in your project:** [https://github.com/CanCanCommunity/cancancan#readm**e](https://github.com/CanCanCommunity/cancancan#readme)
 
 *Q: How are Roles related to Abilities?*
 
 **Task: Allow Users to edit and delete their own Posts, but not the Posts of others.  Follow TDD!**
 
-### Moderators
+# Moderators
 
 Subreddits are owned by the Users that create them, known as moderators.  A moderator can add more moderators by enlisting other subscribed users help them in moderating Subreddits.  Currently, our application has a single owner per Subreddit, but we’d like to allow many moderators per subreddit.
 
@@ -55,7 +55,7 @@ RailsTutorial example: [https://www.railstutorial.org/book/following_users#sec-f
 
 **Task: Allow moderators of a subreddit to add more moderators.**
 
-### OAuth
+# OAuth
 
 Devise offers many configuration and extension options out of the box (check out the list here: [https://github.com/plataformatec/devise/wiki/Extensions](https://github.com/plataformatec/devise/wiki/Extensions)).   Many websites offer the ability for a user to login using their Facebook, Twitter, Google, or LinkedIn accounts, depending on the offering.  Let’s add Facebook authentication to our application.
 
@@ -69,5 +69,5 @@ OAuth is a protocol that allows a third-party service to authenticate users agai
 
 **Task: draw the steps necessary to authenticate using the OAuth protocol.**
 
-**Task: Implement Facebook login using the Omniauth (OAuth2) gem: **[https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview)
+**Task: Implement Facebook login using the Omniauth (OAuth2) gem:** [https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview)
 
