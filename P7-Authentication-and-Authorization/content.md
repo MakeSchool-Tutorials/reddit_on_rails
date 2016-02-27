@@ -49,7 +49,7 @@ RailsTutorial example: [https://www.railstutorial.org/book/following_users#sec-f
 
 **Task: Allow the creating User (hint: Admin, a new role) of a subreddit to add and remove moderators.**
 
-**Task: Add roles and abilities with CanCanCan so that Users are only allowed to edit and remove posts ****their own Posts.**
+**Task: Add roles and abilities with CanCanCan so that Users are only allowed to edit and remove posts their own Posts.**
 
 **Task: Allow moderators of a subreddit to add more moderators.**
 
@@ -59,7 +59,7 @@ Devise offers many configuration and extension options out of the box (check out
 
 OAuth is a protocol that allows a third-party service to authenticate users against an **authenticating service**, and is the protocol used across the web by sites that wish to allow Users to login with, say, a Facebook account.  Many providers offer OAuth: [https://en.wikipedia.org/wiki/List_of_OAuth_providers](https://en.wikipedia.org/wiki/List_of_OAuth_providers), including Reddit!  We’ll use the Omniauth extension for Devise to allow users to login with Facebook.  First, let’s understand how OAuth works:
 
-**Task: Complete the OAuth tutorial: **[https://www.codecademy.com/courses/ruby-beginner-en-ifzi3/0/1?curriculum_id=5122e6618faaada4d20007ed](https://www.codecademy.com/courses/ruby-beginner-en-ifzi3/0/1?curriculum_id=5122e6618faaada4d20007ed)
+**Task: Complete the OAuth tutorial:** [https://www.codecademy.com/courses/ruby-beginner-en-ifzi3/0/1?curriculum_id=5122e6618faaada4d20007ed](https://www.codecademy.com/courses/ruby-beginner-en-ifzi3/0/1?curriculum_id=5122e6618faaada4d20007ed)
 
 *Q: What is Omniauth?*
 
