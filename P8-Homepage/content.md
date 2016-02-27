@@ -1,5 +1,5 @@
 ---
-title: "The Homepage"
+title: "Homepage"
 slug: homepage
 ---
 # The Front Page

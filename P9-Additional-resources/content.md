@@ -3,7 +3,7 @@ title: "Additional Resources"
 slug: additional-resources
 ---
 
-This is the end of this tutorial!  Continue to expand your app using TDD.
+This is the end of this tutorial.  Continue to expand your app using TDD!
 
 1. The Ruby Cookbook: [http://www.amazon.com/Ruby-Cookbook-Lucas-Carlson/dp/1449373712](http://www.amazon.com/Ruby-Cookbook-Lucas-Carlson/dp/1449373712).  Covers most patterns in Ruby and is a solid reference.  Don’t read it all, just skim it and look up patterns before writing them for the first time in Ruby.
 
