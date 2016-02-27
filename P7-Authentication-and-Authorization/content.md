@@ -9,7 +9,7 @@ We’re going to use Devise, an authentication gem, to allow signing in, signing
 
 *Q: What’s the difference between authentication and authorization?*
 
-**Task: Read the "Getting Started" guide for Devise:** [https://github.com/plataformatec/devise#getting-starte**d](https://github.com/plataformatec/devise#getting-started)
+**Task: Read the "Getting Started" guide for Devise:** [https://github.com/plataformatec/devise#getting-started](https://github.com/plataformatec/devise#getting-started)
 
 **Task: Generate a Devise user named User.**
 
