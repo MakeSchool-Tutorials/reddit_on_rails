@@ -29,7 +29,7 @@ When you vote on something in Reddit you increase its score. If you downvote you
 
 **Task: Use ActiveRecord to calculate the number of votes for a post by subtracting the number of downvotes from the number of upvotes.**
 
-Tip: now you might be realizing why we used an integer to represent upvotes and downvotes. You can use SQL’s SUM operation to get the current upvotes - downvotes.
+Tip: Use SQL’s SUM operation to get the (upvotes - downvotes) to determine the Vote count..
 
 **Optional: Use SQL’s SUM to calculate a Comment or Posts score.**
 
