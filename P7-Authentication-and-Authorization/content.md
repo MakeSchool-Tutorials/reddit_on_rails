@@ -27,11 +27,9 @@ While figuring out what your authentication looks like, this would be a good tim
 
 Many applications require different ability levels between users, like an admin or a moderator.  The patterns that describe the implementation of user levels are referred to as authorization.  Because so many Rails apps implement these patterns, gems have been created and actively maintained that implement authorization quickly with a common DSL.  We’ll be using the CanCanCan (a fork of the no longer maintained CanCan) gem to implement authorization on top of the authenticated Users that Devise created for us.
 
-**Task: as a quick introduction to the Can* DSL, digest this RailsCast:**
+**Task: as a quick introduction to the Can* DSL, digest this RailsCast:** [http://railscasts.com/episodes/192-authorization-with-cancan](http://railscasts.com/episodes/192-authorization-with-cancan?autoplay=true)
 
-**[http://railscasts.com/episodes/192-authorization-with-cancan](http://railscasts.com/episodes/192-authorization-with-cancan?autoplay=true)
-
-**Task: follow the getting started guide and implement the base gem in your project:** [https://github.com/CanCanCommunity/cancancan#readm**e](https://github.com/CanCanCommunity/cancancan#readme)
+**Task: follow the getting started guide and implement the base gem in your project:** [https://github.com/CanCanCommunity/cancancan#readme](https://github.com/CanCanCommunity/cancancan#readme)
 
 *Q: How are Roles related to Abilities?*
 
