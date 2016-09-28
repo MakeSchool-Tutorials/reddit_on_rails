@@ -31,7 +31,7 @@ Slugging is the practice of routing based on something other than the primary ke
 
 ## Routing
 
-Now that we’ve added and validated our slugs, we need to add routes so we can use them.  The first step that we'll do is add our route in the routes.rb. If you look over what we have now we'll see that it's mostly resources. We'll be adding our own matcher. You can read more about routing here: [http://guides.rubyonrails.org/routing.html](https://github.com/MakeSchool-Tutorials/Reddit-On-Rails/blob/master/P6-Subreddits/here).
+Now that we’ve added and validated our slugs, we need to add routes so we can use them.  The first step that we'll do is add our route in the routes.rb. If you look over what we have now we'll see that it's mostly resources. We'll be adding our own matcher. You can read more about routing here: [http://guides.rubyonrails.org/routing.html](http://guides.rubyonrails.org/routing.html).
 
 Next, let's add a route that matches localhost:3000/subreddits/<slug> and send that to Subreddits#show controller action.  If the slug is presented, use it to look up the correct subreddit.  If not, defer to the primary key of the Subreddit.
 
